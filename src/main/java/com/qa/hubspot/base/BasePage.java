@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URI;
 import java.util.Properties;
 
 import org.apache.commons.io.FileUtils;
@@ -12,6 +14,8 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -22,6 +26,7 @@ public class BasePage {
 	Properties prop;
 	
 	public static ThreadLocal<WebDriver> tldriver = new ThreadLocal<WebDriver>();
+	
 	
 	public static synchronized WebDriver getDriver() {
 		return tldriver.get();
@@ -41,6 +46,9 @@ public class BasePage {
 			WebDriverManager.chromedriver().setup();
 			//driver = new ChromeDriver();
 			tldriver.set(new ChromeDriver());
+			
+			
+			
 		} else if (browser.equals("firefox")) {
 			WebDriverManager.firefoxdriver().setup();
 			//driver = new FirefoxDriver();
