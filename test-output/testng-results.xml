@@ -1,41 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+<testng-results skipped="0" failed="1" ignored="0" total="7" passed="6">
   <reporter-output>
     <line>
       <![CDATA[Test started--> verifyLoginPageTitleTest
 ]]>
     </line>
   </reporter-output>
-  <suite name="Hub Spot Sanity Test Suite" duration-ms="45885" started-at="2019-12-06T03:11:10Z" finished-at="2019-12-06T03:11:56Z">
+  <suite name="Hub Spot Sanity Test Suite" duration-ms="80105" started-at="2019-12-20T03:05:37Z" finished-at="2019-12-20T03:06:58Z">
     <groups>
     </groups>
-    <test name="hub spot sanity Test" duration-ms="45885" started-at="2019-12-06T03:11:10Z" finished-at="2019-12-06T03:11:56Z">
+    <test name="hub spot sanity Test" duration-ms="80105" started-at="2019-12-20T03:05:37Z" finished-at="2019-12-20T03:06:58Z">
       <class name="com.qa.hubspot.tests.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@32fdec40]" name="setUp" is-config="true" duration-ms="3251" started-at="2019-12-06T03:11:10Z" finished-at="2019-12-06T03:11:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.hubspot.tests.LoginPageTest@32fdec40]" name="verifyLoginPageTitleTest" duration-ms="25427" started-at="2019-12-06T03:11:13Z" finished-at="2019-12-06T03:11:39Z">
+        <test-method status="FAIL" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.hubspot.tests.LoginPageTest@59aa20b3]" name="verifyLoginPageTitleTest" duration-ms="25390" started-at="2019-12-20T03:05:55Z" finished-at="2019-12-20T03:06:20Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for title to contain "HubSpot Login123". Current title: "HubSpot Login" (tried for 15 second(s) with 500 milliseconds interval)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Naveen-Mac.local', ip: 'fe80:0:0:0:862:7554:dba9:7327%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '1.8.0_144'
+System info: host: 'Naveen-Mac.local', ip: 'fe80:0:0:0:1ca2:1d2a:f47a:bac7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: /var/folders/fd/lw5s91x96f9...}, goog:chromeOptions: {debuggerAddress: localhost:53592}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: ec208da35958080cb9019e985c81951c]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/fd/lw5s91x96f9...}, goog:chromeOptions: {debuggerAddress: localhost:53255}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ec47d27086e0ae5c6fbfb4a2c5cc5b8c]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "HubSpot Login123". Current title: "HubSpot Login" (tried for 15 second(s) with 500 milliseconds interval)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Naveen-Mac.local', ip: 'fe80:0:0:0:862:7554:dba9:7327%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '1.8.0_144'
+System info: host: 'Naveen-Mac.local', ip: 'fe80:0:0:0:1ca2:1d2a:f47a:bac7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: /var/folders/fd/lw5s91x96f9...}, goog:chromeOptions: {debuggerAddress: localhost:53592}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: ec208da35958080cb9019e985c81951c
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/fd/lw5s91x96f9...}, goog:chromeOptions: {debuggerAddress: localhost:53255}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ec47d27086e0ae5c6fbfb4a2c5cc5b8c
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
 at com.qa.hubspot.util.ElementUtil.waitForPageTitle(ElementUtil.java:128)
-at com.qa.hubspot.pages.LoginPage.getLoginPageTitle(LoginPage.java:32)
+at com.qa.hubspot.pages.LoginPage.getLoginPageTitle(LoginPage.java:34)
 at com.qa.hubspot.tests.LoginPageTest.verifyLoginPageTitleTest(LoginPageTest.java:52)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -72,19 +68,49 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitleTest -->
-        <test-method status="PASS" signature="verifySignUpLinkTest()[pri:2, instance:com.qa.hubspot.tests.LoginPageTest@32fdec40]" name="verifySignUpLinkTest" duration-ms="5070" started-at="2019-12-06T03:11:41Z" finished-at="2019-12-06T03:11:46Z">
+        <test-method status="PASS" signature="verifySignUpLinkTest()[pri:2, instance:com.qa.hubspot.tests.LoginPageTest@59aa20b3]" name="verifySignUpLinkTest" duration-ms="5055" started-at="2019-12-20T03:06:26Z" finished-at="2019-12-20T03:06:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignUpLinkTest -->
-        <test-method status="PASS" signature="verifyLoginTest()[pri:3, instance:com.qa.hubspot.tests.LoginPageTest@32fdec40]" name="verifyLoginTest" duration-ms="10062" started-at="2019-12-06T03:11:46Z" finished-at="2019-12-06T03:11:56Z">
+        <test-method status="PASS" signature="verifyLoginTest()[pri:3, instance:com.qa.hubspot.tests.LoginPageTest@59aa20b3]" name="verifyLoginTest" duration-ms="10643" started-at="2019-12-20T03:06:37Z" finished-at="2019-12-20T03:06:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginTest -->
-        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@32fdec40]" name="quitBrowser" is-config="true" duration-ms="122" started-at="2019-12-06T03:11:56Z" finished-at="2019-12-06T03:11:56Z">
+      </class> <!-- com.qa.hubspot.tests.LoginPageTest -->
+      <class name="com.qa.hubspot.tests.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@363f6148]" name="setUp" is-config="true" duration-ms="14877" started-at="2019-12-20T03:05:37Z" finished-at="2019-12-20T03:05:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@59aa20b3]" name="setUp" is-config="true" duration-ms="2431" started-at="2019-12-20T03:05:52Z" finished-at="2019-12-20T03:05:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageHeaderValueTest()[pri:1, instance:com.qa.hubspot.tests.HomePageTest@363f6148]" name="verifyHomePageHeaderValueTest" duration-ms="5106" started-at="2019-12-20T03:06:21Z" finished-at="2019-12-20T03:06:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageHeaderValueTest -->
+        <test-method status="PASS" signature="verifyLoggedInUserTest()[pri:2, instance:com.qa.hubspot.tests.HomePageTest@363f6148]" name="verifyLoggedInUserTest" duration-ms="5077" started-at="2019-12-20T03:06:31Z" finished-at="2019-12-20T03:06:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoggedInUserTest -->
+        <test-method status="PASS" signature="verifyHomePageAppLogo()[pri:3, instance:com.qa.hubspot.tests.HomePageTest@363f6148]" name="verifyHomePageAppLogo" duration-ms="5042" started-at="2019-12-20T03:06:47Z" finished-at="2019-12-20T03:06:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageAppLogo -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:4, instance:com.qa.hubspot.tests.HomePageTest@363f6148]" name="verifyHomePageTitleTest" duration-ms="5011" started-at="2019-12-20T03:06:52Z" finished-at="2019-12-20T03:06:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@363f6148]" name="quitBrowser" is-config="true" duration-ms="129" started-at="2019-12-20T03:06:57Z" finished-at="2019-12-20T03:06:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
-      </class> <!-- com.qa.hubspot.tests.LoginPageTest -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@59aa20b3]" name="quitBrowser" is-config="true" duration-ms="196" started-at="2019-12-20T03:06:57Z" finished-at="2019-12-20T03:06:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.qa.hubspot.tests.HomePageTest -->
     </test> <!-- hub spot sanity Test -->
   </suite> <!-- Hub Spot Sanity Test Suite -->
 </testng-results>

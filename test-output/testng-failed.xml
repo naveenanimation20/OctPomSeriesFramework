@@ -2,8 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" verbose="4" name="Failed suite [Hub Spot Sanity Test Suite]">
   <listeners>
-    <listener class-name="com.qa.hubspot.listeners.ExtentReportListener"/>
-    <listener class-name="com.qa.hubspot.listeners.TestAllureListener"/>
+    <listener class-name="com.qa.hubspot.listeners.TesultsListener"/>
   </listeners>
   <test thread-count="5" verbose="4" name="hub spot sanity Test(failed)">
     <classes>
