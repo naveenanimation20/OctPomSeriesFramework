@@ -80,8 +80,7 @@ public class BasePage {
 
 		prop = new Properties();
 		try {
-			FileInputStream ip = new FileInputStream("/Users/NaveenKhunteta/Documents/workspace/OctBatchPOMSeries/"
-					+ "src/main/java/com/qa/hubspot/config/config.properties");
+			FileInputStream ip = new FileInputStream("./src/main/java/com/qa/hubspot/config/config.properties");
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
