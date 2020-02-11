@@ -4,9 +4,9 @@
 <suite name="Hub Spot Sanity Test Suite" verbose="4">
 
 	<listeners>
-		<!-- <listener class-name="com.qa.hubspot.listeners.ExtentReportListener" />
-		<listener class-name="com.qa.hubspot.listeners.TestAllureListener" /> -->
-		<listener class-name="com.qa.hubspot.listeners.TesultsListener" />
+<!-- 		<listener class-name="com.qa.hubspot.listeners.ExtentReportListener" /> -->
+		<listener class-name="com.qa.hubspot.listeners.TestAllureListener" />
+<!-- 		<listener class-name="com.qa.hubspot.listeners.TesultsListener" /> -->
 	</listeners>
 
 	<test name="hub spot sanity Test">
