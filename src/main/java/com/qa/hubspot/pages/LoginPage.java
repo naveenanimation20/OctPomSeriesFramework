@@ -13,7 +13,7 @@ public class LoginPage extends BasePage {
 
 	WebDriver driver;
 	ElementUtil elementUtil;
-
+	// Added new comment
 	// 1. Page Objects / By Locators
 	By emailID = By.id("username");
 	By password = By.id("password");
